@@ -1,5 +1,18 @@
 <template>
-<h1>Micro-shop</h1>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<Card />
+</div>
+<div class="col-md-4">
+<Card />
+</div>
+<div class="col-md-4">
+<Card />
+</div>
+
+</div>
+</div>
 </template>
 
 <script lang="ts">
