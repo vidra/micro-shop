@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 10,
+      "category": "birthday",
+      "title": "gingerbread",
+      "description": "gingerbread",
+      "price" : "100"
+    },
+     {
+      "id": 20,
+      "category": "animal welfare",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "price" : "200"
+    },
+     {
+      "id": 30,
+      "category": "animal welfare",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "price" : "300"
+    }
+  ]
+}

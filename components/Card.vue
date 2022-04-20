@@ -1,7 +1,7 @@
 <template>
 
+<div class="col-md-4">
 
-<div>
   <b-card
     title="Card Title"
     img-src="https://picsum.photos/600/300/?image=25"
@@ -12,10 +12,31 @@
     class="mb-2"
   >
     <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+{{ product.description }}
     </b-card-text>
+<button class="button" @click="addToCart">Add to Cart</button>
 
-    <b-button href="#" variant="primary">Go somewhere</b-button>
   </b-card>
 </div>
 </template>
+<script>
+    export default {
+data() {
+        return {
+cart:[],
+}
+},
+      props: {
+        product: Object
+      },
+methods: {
+  addToCart() {
+    this.$emit('addToCart', this.cart.id)
+}
+  },
+
+      computed: {
+        }
+  }
+
+    </script>
